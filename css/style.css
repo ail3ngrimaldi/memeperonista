@@ -47,8 +47,10 @@ html {
 }
 
 .picture-container {
+  width: 100%;
+  height: auto;
   margin: 50px;
-  width: 45%;
+  /* width: 45%; */
   height: 80vh;
   padding: 30px;
   text-align: center;
@@ -61,8 +63,9 @@ html {
 }
 
 .peron-img {
+  width: 100%;
   background-image: url("https://images.clarin.com/2018/10/16/juan-domingo-peron-ex-presidente___rtg1gGAtd_1200x630__1.jpg");
-  width: 50%;
+
   height: 100vh;
   background-position: top;
   background-repeat: no-repeat;
