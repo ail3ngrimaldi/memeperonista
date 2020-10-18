@@ -10,16 +10,8 @@
   <body>
     <header class="header">
       <h1 class="title">MEME PERONISTA</h1>
-      <p class="subtitle">A 75 años del primer día de la lealtad: generá tu meme peroncho.</p>
-    </header>
-    <content class="content">           
-      <div class="peron-img">
-          <button onclick="generator()" class="button">GENERAR</button>
-       </div>
-      <div  id="divImage" class="lorem-container"></div>
-     
-    </content>
-    <div>
+      <p class="subtitle">A 75 años del primer día de la lealtad: generá tu meme peroncho mientras escuchás la más maravillosa música.</p>
+      <div>
         <iframe src="audio/marchaPeronistap3" allow="autoplay" style="display:none" id="iframeAudio">
         </iframe> 
         <audio controls autoplay id="playAudio">
@@ -27,9 +19,17 @@
                 Tu navegador no puede escuchar la más maravillosa música que setie. :(
         </audio>
     </div>
+    </header>
+    <content class="content">           
+      <div class="peron-img">
+          <button onclick="generator()" class="button">General, digo, generar</button>
+       </div>
+      <div  id="divImage" class="picture-container"></div>
+    </content>
 
     <footer class="footer">
         <p class="design">Developed by <a href="http://www.github.com/ail3ngrimaldi">Ailén Grimaldi</a></p>
+        <p>Para enviar tu meme: <a href = "mailto: ailengrimaldi1@gmail.com">click acá</a></p>
     </footer>
 
     <script src="./js/app.js"></script>
