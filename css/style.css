@@ -27,7 +27,7 @@ html {
 .button {
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #84a9ac; 
@@ -63,7 +63,6 @@ html {
   background-image: url("https://images.clarin.com/2018/10/16/juan-domingo-peron-ex-presidente___rtg1gGAtd_1200x630__1.jpg");
   width: 50%;
   height: 100vh;
-  /* border-radius: 100%; */
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +74,7 @@ html {
     .content {
       flex-direction: column;
     }
-    .lorem-container{
+    .picture-container{
         width: 100%;
         height: 100%;
 
@@ -91,6 +90,7 @@ html {
     }
   }
 
-#playaudio {
-  align-items: center;
+.footer {
+    text-align: center;
+    align-content: center;
 }
