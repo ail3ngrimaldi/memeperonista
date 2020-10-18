@@ -47,8 +47,9 @@ html {
 }
 
 .picture-container {
-  width: 50%;
-  height: 100vh;
+  margin: 50px;
+  width: 45%;
+  height: 80vh;
   padding: 30px;
   text-align: center;
   color: black;
